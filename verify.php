@@ -11,7 +11,7 @@
     else
     {
         $fail_response = "The reCAPTCHA wasn't entered correctly."
-                                      . "<a href='http://localhost:8888/Fim-Captcha/index.php'>Go back</a> and try it again, "
+                                      . "<a href='/index.php'>Go back</a> and try it again, "
                                       . "or call the ITS Service Desk at (505)-224-4357";
     }
 ?>
