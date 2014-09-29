@@ -15,7 +15,8 @@
         <div class="row">
             <div class="col-md-6 col-md-offset-3 content">
                 <form method="post" action="verify.php">
-                    <h4>Prove your humanity:</h4>
+                    <h4>CNM Password Reset</h4>
+                    <p>"Captcha" images help us to determine that a real person has clicked "Submit" to initiate the reset. Please type the letters as they appear in the box, do not include any spaces.</p>
                     <hr />
                     <?php
                         require_once('recaptchalib.php');
